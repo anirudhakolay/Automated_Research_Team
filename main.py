@@ -1,7 +1,6 @@
 import os
 from crewai import Agent, Task, Crew, Process
 from langchain_community.tools import DuckDuckGoSearchRun
-# from langchain_groq import ChatGroq
 from crewai import LLM
 from dotenv import load_dotenv
 from crewai.tools import tool
