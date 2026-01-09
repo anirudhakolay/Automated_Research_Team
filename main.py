@@ -9,10 +9,6 @@ from crewai.tools import tool
 load_dotenv()
 
 
-# 1. CONFIGURATION
-# Paste your Groq Key here
-
-
 
 # Initialize the Groq LLM (Free & Fast)
 llm = LLM(
